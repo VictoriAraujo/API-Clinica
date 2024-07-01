@@ -1,8 +1,11 @@
-package med.voll.api.controller;
+package med.api.controller;
 
 import jakarta.transaction.Transactional;
 import jakarta.validation.Valid;
-import med.voll.api.medico.*;
+import med.api.medico.ListagemMedicos;
+import med.api.medico.Medico;
+import med.api.medico.MedicoRepository;
+import med.api.medico.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
